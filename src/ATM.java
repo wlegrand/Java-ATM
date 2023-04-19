@@ -31,7 +31,6 @@ public class ATM {
             System.out.println("3. Withdraw");
             System.out.println("4. Exit");
             option = input.nextInt();
-            input.nextLine();
             switch (option) {
                 case 1:
                     bank.checkBalance();
